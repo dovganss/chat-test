@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.css";
 
 function FormInput() {
-  return <in className="form__input" type="string"></in>;
+  return <input className="form__input" type="text"></input>;
 }
 
 export default FormInput;
