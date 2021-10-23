@@ -1,8 +1,18 @@
 import React from "react";
 import "./styles.css";
-
-function Button() {
-  return <button className="form__button">Log In</button>;
+interface IButton {
+  onChange: (value: string) => void;
 }
 
-export default Button;
+export const Button: React.FC<IButton> = ({ onChange }) => {
+  return (
+    <div className="container">
+      <button
+        className="form__button"
+        onClick={() => console.log("I was clicked!")}
+      >
+        Log In
+      </button>
+    </div>
+  );
+};

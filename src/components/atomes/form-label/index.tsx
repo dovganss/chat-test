@@ -1,12 +1,16 @@
 import React from "react";
-import './styles.css'
+import "./styles.css";
 
-function FormLabel() {
-  return (
-    <label>
-      <p className="form__label">User name</p>
-    </label>
-  );
+interface ILabel {
+  label?: string;
 }
 
-export default FormLabel;
+export const Label: React.FC<ILabel> = ({ label }) => {
+  return (
+    <div className="container">
+      <label>
+        <p className="form__label">{label}</p>
+      </label>
+    </div>
+  );
+};
