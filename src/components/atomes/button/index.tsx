@@ -1,18 +1,15 @@
 import React from "react";
 import "./styles.css";
 interface IButton {
-  onChange: (value: string) => void;
+  onClick: (e: React.MouseEvent) => void;
 }
 
-export const Button: React.FC<IButton> = ({ onChange }) => {
+export function Button({ onClick }: IButton) {
   return (
-    <div className="container">
-      <button
-        className="form__button"
-        onClick={() => console.log("I was clicked!")}
-      >
+    <div>
+      <button className="form__button" onClick={onClick}>
         Log In
       </button>
     </div>
   );
-};
+}

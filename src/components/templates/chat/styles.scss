@@ -1,0 +1,10 @@
+.chat__main {
+  display: flex;
+
+  &-blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+

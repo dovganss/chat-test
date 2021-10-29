@@ -16,7 +16,7 @@ export const PasswordInput: React.FC<IPasswordInput> = ({
   const [isPasswordVisible] = useState<boolean>(false);
 
   return (
-    <div className="container">
+    <div>
       <input
         className="form__input"
         type={isPasswordVisible ? "text" : "password"}

@@ -1,0 +1,9 @@
+.container {
+  background-image: url(./../../../../src/img/Frame.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+  &--chat {
+    background-image: none;
+  }
+}

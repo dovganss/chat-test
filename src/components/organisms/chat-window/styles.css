@@ -1,0 +1,10 @@
+.chat__window {
+  width: 1078px;
+  height: 1080px;
+  background: #EFF5FF;
+  border-left: 0.5px solid #88ABE3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 36px 26px;
+}

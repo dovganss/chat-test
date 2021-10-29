@@ -7,7 +7,7 @@ interface ILabel {
 
 export const Label: React.FC<ILabel> = ({ label }) => {
   return (
-    <div className="container">
+    <div>
       <label>
         <p className="form__label">{label}</p>
       </label>

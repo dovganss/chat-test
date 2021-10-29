@@ -1,0 +1,9 @@
+.logo {
+  margin-bottom: 16px;
+}
+
+.chat__header .logo {
+  width: 86px;
+  height: 32px;
+  margin-left: 24px;
+}

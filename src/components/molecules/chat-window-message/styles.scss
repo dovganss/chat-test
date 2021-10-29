@@ -1,0 +1,44 @@
+.chat__window-message {
+  display: flex;
+}
+
+.chat__window-text {
+  font-weight: normal;
+  font-size: 16px;
+  color: #303030;
+}
+
+.chat__window-item {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+
+
+}
+
+.chat__window-list {
+  max-width: 491px;
+  min-height: 50px;
+  border: 1px solid #D7E6FF;
+  border-radius: 12px;
+  display: flex;
+  align-self: flex-end;
+  padding: 9px 14px;
+  background: #EFF5FF;
+
+  &:before {
+    content: none;
+    position: absolute;
+    width: 24.13px;
+    height: 22.57px;
+    background: #FFFFFF;
+    border: 20px solid transparent; border-top: 20px solid #D7E6FF;
+  }
+
+  &:nth-child(2n) {
+    background: #FFFFFF;
+    align-self: flex-start;
+}
+}
+
+

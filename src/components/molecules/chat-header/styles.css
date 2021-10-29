@@ -1,0 +1,15 @@
+.chat__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 23px;
+  position: relative;
+  background: #FFFFFF;
+  border-bottom: 0.5px solid #88ABE3;
+}

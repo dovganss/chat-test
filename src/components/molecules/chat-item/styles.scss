@@ -1,0 +1,9 @@
+.chat__item {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+
+  &-img {
+    margin-right: 12px;
+  }
+}

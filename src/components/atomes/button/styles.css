@@ -9,6 +9,7 @@
   color: #FFFFFF;
   outline: none;
   border-style: solid;
+  margin-top: 48px;
 }
 .form__button:hover {
   background: #4583DE;

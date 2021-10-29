@@ -6,25 +6,19 @@
    position: relative;
    color: #333333;
    background: #E5E5E5;
- }
-
- .wrapper {
-   position: relative;
    width: 100%;
-   height: 100%;
-   overflow: hidden;
+   min-height: 100vh;
  }
 
- .maincontent {
-   height: 100%;
-   transition: transform 1s;
-   will-change: transform;
+ .root {
+  min-height: 100vh;
  }
 
  .container {
-   width: 95%;
-   margin: 0 rem(23px);
    position: relative;
+   width: 100%;
+   min-height: 100vh;
+   overflow: hidden;
  }
 
  // tag styles reset
