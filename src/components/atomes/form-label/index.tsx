@@ -3,13 +3,14 @@ import "./styles.css";
 
 interface ILabel {
   label?: string;
+  htmlFor: string;
 }
 
-export const Label: React.FC<ILabel> = ({ label }) => {
+export const Label: React.FC<ILabel> = ({ label, htmlFor }) => {
   return (
     <div>
-      <label>
-        <p className="form__label">{label}</p>
+      <label htmlFor={htmlFor} className="form__label">
+        {label}
       </label>
     </div>
   );

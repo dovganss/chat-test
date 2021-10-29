@@ -1,15 +1,16 @@
 import React from "react";
 import "./styles.css";
+
 interface IButton {
-  onClick: (e: React.MouseEvent) => void;
+  type: string;
 }
 
-export function Button({ onClick }: IButton) {
+export const Button: React.FC<IButton> = ({ type }) => {
   return (
     <div>
-      <button className="form__button" onClick={onClick}>
+      <button type="submit" className="form__button">
         Log In
       </button>
     </div>
   );
-}
+};
